@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#272323"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:id="@+id/activity_main__background"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scaleType="centerCrop"
+        android:src="@drawable/activity_main_background" />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Cook Helper"
+        android:fontFamily="@font/adamina"
+        android:textSize="36sp"
+        android:textColor="@color/black"
+        android:gravity="center"
+        android:layout_marginTop="30dp"
+        />
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="125dp">
+
+        <Button
+            android:id="@+id/activity_main__button1"
+            style="@style/Widget.MaterialComponents.Button.TextButton"
+            app:strokeColor = "@color/black"
+            app:strokeWidth = "1dp"
+            android:layout_width="309dp"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/adamina"
+            android:text="Scanner"
+            android:textColor="@color/black"
+            android:textSize = "18sp"
+            app:cornerRadius="16dp"
+
+            />
+
+        <Button
+            android:id="@+id/activity_main__button2"
+            style="@style/Widget.MaterialComponents.Button.TextButton"
+            app:strokeColor = "@color/black"
+            app:strokeWidth = "1dp"
+            android:layout_width="309dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/activity_main__button1"
+            android:fontFamily="@font/adamina"
+            android:text="Week Compilation"
+            android:textColor="@color/black"
+            android:textSize = "18sp"
+            app:cornerRadius="16dp"
+            android:layout_marginTop="16dp"
+            />
+
+        <Button
+            android:id="@+id/activity_main__button3"
+            style="@style/Widget.MaterialComponents.Button.TextButton"
+            app:strokeColor = "@color/black"
+            app:strokeWidth = "1dp"
+            android:layout_width="309dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/activity_main__button2"
+            android:fontFamily="@font/adamina"
+            android:text="Preferences"
+            android:textColor="@color/black"
+            android:textSize = "18sp"
+            app:cornerRadius="16dp"
+            android:layout_marginTop="16dp"
+            />
+        <Button
+            android:id="@+id/activity_main__button4"
+            style="@style/Widget.MaterialComponents.Button.TextButton"
+            app:strokeColor = "@color/black"
+            app:strokeWidth = "1dp"
+            android:layout_width="309dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/activity_main__button3"
+            android:fontFamily="@font/adamina"
+            android:text="Cuisine"
+            android:textColor="@color/black"
+            android:textSize = "18sp"
+            app:cornerRadius="16dp"
+            android:layout_marginTop="16dp"
+            />
+    </RelativeLayout>
+
+</RelativeLayout>
