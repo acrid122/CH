@@ -4,13 +4,7 @@ import androidx.appcompat.app.ActionBar;
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.viewpager.widget.ViewPager;
 
-import android.content.Intent;
 import android.os.Bundle;
-import android.view.MenuItem;
-import android.view.View;
-import android.view.Window;
-import android.widget.Button;
-import android.widget.ImageButton;
 
 import java.util.ArrayList;
 
@@ -69,7 +63,7 @@ public class WeekComActivity extends AppCompatActivity {
                 "Лучшие блины просто лучшие блины просто лучшие блины просто лучшие блины" +
                         "просто лучшие блиныпросто лучшие блиныпросто лучшие блины" +
                         "просто лучшие блиныпросто лучшие блиныпросто лучшие блиныпросто лучшие блины",
-                R.drawable.img));
+                R.drawable.preferences));
         ArrayModels.add(new model(
                 "Pancakes2",
                 " Вкусные блины простоВкусные блины простоВкусные блины простоВкусные блины просто" +
