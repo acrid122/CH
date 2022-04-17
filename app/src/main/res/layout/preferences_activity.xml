@@ -46,7 +46,7 @@
 
     <LinearLayout
         android:layout_width="match_parent"
-        android:layout_height="500dp"
+        android:layout_height="300dp"
         android:background="@drawable/round"
         android:elevation="7dp"
         android:layout_marginTop="20dp"
@@ -79,7 +79,6 @@
                 android:textColor="@color/black"
                 android:gravity="center"/>
         </LinearLayout>
-
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
@@ -135,6 +134,198 @@
 
         </LinearLayout>
 
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:weightSum="2"
+            android:layout_marginTop="25dp">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:text="bitter"
+                android:fontFamily="@font/adamina"
+                android:textSize="18sp"
+                android:layout_weight="1"
+                android:textColor="@color/black"
+                android:gravity="center"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:fontFamily="@font/adamina"
+                android:text="spicy"
+                android:textSize="18sp"
+                android:layout_weight="1"
+                android:textColor="@color/black"
+                android:gravity="center"/>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:weightSum="2"
+            android:layout_marginTop="5dp">
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:gravity="center">
+
+                <ToggleButton
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    android:background="@drawable/bitter_icon_pressed"
+                    android:textOff=""
+                    android:textOn=""
+                    android:layout_marginHorizontal="4dp"/>
+                <ToggleButton
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    android:background="@drawable/bitter_icon_pressed"
+                    android:textOff=""
+                    android:textOn="" />
+
+                <ToggleButton
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    android:background="@drawable/bitter_icon_pressed"
+                    android:textOff=""
+                    android:textOn=""
+                    android:layout_marginHorizontal="4dp"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="center">
+                <ToggleButton
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    android:background="@drawable/spicy_icon_pressed"
+                    android:textOff=""
+                    android:textOn="" />
+                <ToggleButton
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    android:background="@drawable/spicy_icon_pressed"
+                    android:textOff=""
+                    android:textOn="" />
+
+                <ToggleButton
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    android:background="@drawable/spicy_icon_pressed"
+                    android:textOff=""
+                    android:textOn="" />
+
+            </LinearLayout>
+
+
+
+
+
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:weightSum="2"
+            android:layout_marginTop="25dp">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:text="sweety"
+                android:fontFamily="@font/adamina"
+                android:textSize="18sp"
+                android:layout_weight="1"
+                android:textColor="@color/black"
+                android:gravity="center"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:fontFamily="@font/adamina"
+                android:text="spice"
+                android:textSize="18sp"
+                android:layout_weight="1"
+                android:textColor="@color/black"
+                android:gravity="center"/>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:weightSum="2"
+            android:layout_marginTop="5dp">
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:gravity="center">
+
+                <ToggleButton
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    android:background="@drawable/sweety_icon_pressed"
+                    android:textOff=""
+                    android:textOn="" />
+                <ToggleButton
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    android:background="@drawable/sweety_icon_pressed"
+                    android:textOff=""
+                    android:textOn="" />
+
+                <ToggleButton
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    android:background="@drawable/sweety_icon_pressed"
+                    android:textOff=""
+                    android:textOn="" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="center">
+                <ToggleButton
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    android:background="@drawable/spice_icon_pressed"
+                    android:textOff=""
+                    android:textOn=""
+                    android:layout_marginHorizontal="4dp"/>
+                <ToggleButton
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    android:background="@drawable/spice_icon_pressed"
+                    android:textOff=""
+                    android:textOn="" />
+
+                <ToggleButton
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    android:background="@drawable/spice_icon_pressed"
+                    android:textOff=""
+                    android:textOn=""
+                    android:layout_marginHorizontal="4dp"/>
+
+            </LinearLayout>
+
+
+
+
+
+        </LinearLayout>
 
 
 
