@@ -46,7 +46,7 @@
 
     <LinearLayout
         android:layout_width="match_parent"
-        android:layout_height="300dp"
+        android:layout_height="350dp"
         android:background="@drawable/round"
         android:elevation="7dp"
         android:layout_marginTop="20dp"
@@ -59,7 +59,8 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:orientation="horizontal"
-            android:weightSum="2">
+            android:weightSum="2"
+            android:layout_marginTop="30dp">
             <TextView
                android:layout_width="wrap_content"
                 android:layout_height="match_parent"
@@ -95,9 +96,10 @@
                 <ToggleButton
                     android:layout_width="30dp"
                     android:layout_height="30dp"
-                    android:background="@drawable/vegan_icon"
+                    android:background="@drawable/vegan_button_background"
                     android:textOff=""
-                    android:textOn=""/>
+                    android:textOn=""
+                    android:id="@+id/vegan_button"/>
 
             </LinearLayout>
 
@@ -109,23 +111,25 @@
                 <ToggleButton
                     android:layout_width="30dp"
                     android:layout_height="30dp"
-                    android:background="@drawable/salty_icon_pressed"
+                    android:background="@drawable/salty_button_background"
                     android:textOff=""
-                    android:textOn="" />
+                    android:textOn=""
+                    android:id="@+id/salty_button1"/>
                 <ToggleButton
                     android:layout_width="30dp"
                     android:layout_height="30dp"
-                    android:background="@drawable/salty_icon_pressed"
+                    android:background="@drawable/salty_button_background"
                     android:textOff=""
-                    android:textOn="" />
+                    android:textOn=""
+                    android:id="@+id/salty_button2"/>
 
                 <ToggleButton
                     android:layout_width="30dp"
                     android:layout_height="30dp"
-                    android:background="@drawable/salty_icon_pressed"
+                    android:background="@drawable/salty_button_background"
                     android:textOff=""
-                    android:textOn="" />
-
+                    android:textOn=""
+                    android:id="@+id/salty_button3"/>
             </LinearLayout>
 
 
@@ -177,24 +181,27 @@
                 <ToggleButton
                     android:layout_width="30dp"
                     android:layout_height="30dp"
-                    android:background="@drawable/bitter_icon_pressed"
+                    android:background="@drawable/bitter_button_background"
                     android:textOff=""
                     android:textOn=""
-                    android:layout_marginHorizontal="4dp"/>
+                    android:layout_marginHorizontal="4dp"
+                    android:id="@+id/bitter_button1"/>
                 <ToggleButton
                     android:layout_width="30dp"
                     android:layout_height="30dp"
-                    android:background="@drawable/bitter_icon_pressed"
+                    android:background="@drawable/bitter_button_background"
                     android:textOff=""
-                    android:textOn="" />
+                    android:textOn="" android:id="@+id/bitter_button2"
+                    />
 
                 <ToggleButton
                     android:layout_width="30dp"
                     android:layout_height="30dp"
-                    android:background="@drawable/bitter_icon_pressed"
+                    android:background="@drawable/bitter_button_background"
                     android:textOff=""
                     android:textOn=""
-                    android:layout_marginHorizontal="4dp"/>
+                    android:layout_marginHorizontal="4dp"
+                    android:id="@+id/bitter_button3"/>
 
             </LinearLayout>
 
@@ -206,22 +213,25 @@
                 <ToggleButton
                     android:layout_width="30dp"
                     android:layout_height="30dp"
-                    android:background="@drawable/spicy_icon_pressed"
+                    android:background="@drawable/spicy_button_background"
                     android:textOff=""
-                    android:textOn="" />
+                    android:textOn=""
+                    android:id="@+id/spicy_button1"/>
                 <ToggleButton
                     android:layout_width="30dp"
                     android:layout_height="30dp"
-                    android:background="@drawable/spicy_icon_pressed"
+                    android:background="@drawable/spicy_button_background"
                     android:textOff=""
-                    android:textOn="" />
+                    android:textOn=""
+                    android:id="@+id/spicy_button2"/>
 
                 <ToggleButton
                     android:layout_width="30dp"
                     android:layout_height="30dp"
-                    android:background="@drawable/spicy_icon_pressed"
+                    android:background="@drawable/spicy_button_background"
                     android:textOff=""
-                    android:textOn="" />
+                    android:textOn=""
+                    android:id="@+id/spicy_button3"/>
 
             </LinearLayout>
 
@@ -273,22 +283,25 @@
                 <ToggleButton
                     android:layout_width="30dp"
                     android:layout_height="30dp"
-                    android:background="@drawable/sweety_icon_pressed"
+                    android:background="@drawable/sweety_button_background"
                     android:textOff=""
-                    android:textOn="" />
+                    android:textOn=""
+                    android:id="@+id/sweety_button1"/>
                 <ToggleButton
                     android:layout_width="30dp"
                     android:layout_height="30dp"
-                    android:background="@drawable/sweety_icon_pressed"
+                    android:background="@drawable/sweety_button_background"
                     android:textOff=""
-                    android:textOn="" />
+                    android:textOn=""
+                    android:id="@+id/sweety_button2" />
 
                 <ToggleButton
                     android:layout_width="30dp"
                     android:layout_height="30dp"
-                    android:background="@drawable/sweety_icon_pressed"
+                    android:background="@drawable/sweety_button_background"
                     android:textOff=""
-                    android:textOn="" />
+                    android:textOn=""
+                    android:id="@+id/sweety_button3"/>
 
             </LinearLayout>
 
@@ -300,24 +313,27 @@
                 <ToggleButton
                     android:layout_width="30dp"
                     android:layout_height="30dp"
-                    android:background="@drawable/spice_icon_pressed"
+                    android:background="@drawable/spice_button_background"
                     android:textOff=""
                     android:textOn=""
-                    android:layout_marginHorizontal="4dp"/>
+                    android:layout_marginHorizontal="4dp"
+                    android:id="@+id/spice_button1"/>
                 <ToggleButton
                     android:layout_width="30dp"
                     android:layout_height="30dp"
-                    android:background="@drawable/spice_icon_pressed"
+                    android:background="@drawable/spice_button_background"
                     android:textOff=""
-                    android:textOn="" />
+                    android:textOn=""
+                    android:id="@+id/spice_button2"/>
 
                 <ToggleButton
                     android:layout_width="30dp"
                     android:layout_height="30dp"
-                    android:background="@drawable/spice_icon_pressed"
+                    android:background="@drawable/spice_button_background"
                     android:textOff=""
                     android:textOn=""
-                    android:layout_marginHorizontal="4dp"/>
+                    android:layout_marginHorizontal="4dp"
+                    android:id="@+id/spice_button3"/>
 
             </LinearLayout>
 

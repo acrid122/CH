@@ -4,8 +4,14 @@
     <option name="filePathToZoomLevelMap">
       <map>
         <entry key="..\:/AndroidProjects/CH/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.2595" />
+        <entry key="..\:/AndroidProjects/CH/app/src/main/res/drawable/bitter_button_background.xml" value="0.16" />
         <entry key="..\:/AndroidProjects/CH/app/src/main/res/drawable/ic_launcher_background.xml" value="0.2595" />
         <entry key="..\:/AndroidProjects/CH/app/src/main/res/drawable/round.xml" value="0.124" />
+        <entry key="..\:/AndroidProjects/CH/app/src/main/res/drawable/salty_button_background.xml" value="0.16" />
+        <entry key="..\:/AndroidProjects/CH/app/src/main/res/drawable/spice_button_background.xml" value="0.16" />
+        <entry key="..\:/AndroidProjects/CH/app/src/main/res/drawable/spicy_button_background.xml" value="0.16" />
+        <entry key="..\:/AndroidProjects/CH/app/src/main/res/drawable/sweety_button_background.xml" value="0.16" />
+        <entry key="..\:/AndroidProjects/CH/app/src/main/res/drawable/vegan_button_background.xml" value="0.16" />
         <entry key="..\:/AndroidProjects/CH/app/src/main/res/layout/activity_week_com.xml" value="0.4" />
         <entry key="..\:/AndroidProjects/CH/app/src/main/res/layout/item_card.xml" value="0.21467391304347827" />
         <entry key="..\:/AndroidProjects/CH/app/src/main/res/layout/preferences_activity.xml" value="0.264" />
