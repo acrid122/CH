@@ -3,9 +3,12 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/AndroidProjects/CH/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.2595" />
+        <entry key="..\:/AndroidProjects/CH/app/src/main/res/drawable/ic_launcher_background.xml" value="0.2595" />
         <entry key="..\:/AndroidProjects/CH/app/src/main/res/drawable/round.xml" value="0.124" />
-        <entry key="..\:/AndroidProjects/CH/app/src/main/res/layout/activity_week_com.xml" value="0.11302083333333333" />
-        <entry key="..\:/AndroidProjects/CH/app/src/main/res/layout/preferences_activity.xml" value="0.2" />
+        <entry key="..\:/AndroidProjects/CH/app/src/main/res/layout/activity_week_com.xml" value="0.4" />
+        <entry key="..\:/AndroidProjects/CH/app/src/main/res/layout/item_card.xml" value="0.21467391304347827" />
+        <entry key="..\:/AndroidProjects/CH/app/src/main/res/layout/preferences_activity.xml" value="0.264" />
         <entry key="..\:/Users/User/AndroidStudioProjects/CH/app/src/main/res/drawable-anydpi/ic_action_name.xml" value="0.2205" />
         <entry key="..\:/Users/User/AndroidStudioProjects/CH/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.2205" />
         <entry key="..\:/Users/User/AndroidStudioProjects/CH/app/src/main/res/drawable/border.xml" value="0.2375" />

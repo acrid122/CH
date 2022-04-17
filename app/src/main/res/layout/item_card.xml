@@ -18,7 +18,7 @@
             android:background="#59000000">
             <ImageView
                 android:id="@+id/activity_week_com__banner"
-                android:src = "@drawable/preferences"
+                android:src = "@drawable/activity_preferences_background"
                 android:layout_width="match_parent"
                 android:layout_height="450dp"
                 android:scaleType="centerCrop"/>

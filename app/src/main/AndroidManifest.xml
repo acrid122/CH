@@ -12,8 +12,7 @@
         android:theme="@style/Theme.CH">
         <activity
             android:name=".WeekComActivity"
-            android:label="WeekComActivity"
-            />
+            android:label="WeekComActivity"/>
         <activity
             android:name=".MainActivity"
             android:exported="true"
@@ -24,5 +23,8 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+
+        <activity android:name=".PreferencesActivity"/>
+
     </application>
 </manifest>

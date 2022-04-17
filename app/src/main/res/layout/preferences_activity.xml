@@ -3,5 +3,148 @@
     android:orientation="vertical"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@drawable/preferences">
+    android:background="@drawable/activity_preferences_background">
+
+    <TextView
+    android:layout_width="309dp"
+    android:layout_height="50dp"
+    android:layout_marginTop="15dp"
+    android:background="@drawable/round"
+    android:text="Preferences"
+    android:fontFamily="@font/adamina"
+    android:textSize="18sp"
+    android:layout_gravity="center_horizontal"
+    style="@style/Widget.MaterialComponents.TextView"
+    android:textColor="@color/black"
+    android:gravity="center"
+    android:elevation="7dp"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="50dp"
+        android:gravity="center_horizontal">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/adamina"
+            android:textSize="18sp"
+            android:textColor="@color/black"
+            android:text="Choose something "
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/adamina"
+            android:textSize="18sp"
+            android:textColor="@color/purple_500"
+            android:text="about you:"
+            />
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="500dp"
+        android:background="@drawable/round"
+        android:elevation="7dp"
+        android:layout_marginTop="20dp"
+        android:paddingHorizontal="25dp"
+        android:layout_marginHorizontal="20dp"
+        android:paddingTop="25dp"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:weightSum="2">
+            <TextView
+               android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:text="vegan"
+                android:fontFamily="@font/adamina"
+                android:textSize="18sp"
+                android:layout_weight="1"
+                android:textColor="@color/black"
+                android:gravity="center"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:fontFamily="@font/adamina"
+                android:text="salty"
+                android:textSize="18sp"
+                android:layout_weight="1"
+                android:textColor="@color/black"
+                android:gravity="center"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:weightSum="2"
+            android:layout_marginTop="5dp">
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:gravity="center">
+
+                <ToggleButton
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    android:background="@drawable/vegan_icon"
+                    android:textOff=""
+                    android:textOn=""/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="center">
+                <ToggleButton
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    android:background="@drawable/salty_icon_pressed"
+                    android:textOff=""
+                    android:textOn="" />
+                <ToggleButton
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    android:background="@drawable/salty_icon_pressed"
+                    android:textOff=""
+                    android:textOn="" />
+
+                <ToggleButton
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    android:background="@drawable/salty_icon_pressed"
+                    android:textOff=""
+                    android:textOn="" />
+
+            </LinearLayout>
+
+
+
+
+
+        </LinearLayout>
+
+
+
+
+
+
+    </LinearLayout>
+
+
+
+
+
+
 </LinearLayout>

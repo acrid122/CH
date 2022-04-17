@@ -63,7 +63,7 @@ public class WeekComActivity extends AppCompatActivity {
                 "Лучшие блины просто лучшие блины просто лучшие блины просто лучшие блины" +
                         "просто лучшие блиныпросто лучшие блиныпросто лучшие блины" +
                         "просто лучшие блиныпросто лучшие блиныпросто лучшие блиныпросто лучшие блины",
-                R.drawable.preferences));
+                R.drawable.activity_preferences_background));
         ArrayModels.add(new model(
                 "Pancakes2",
                 " Вкусные блины простоВкусные блины простоВкусные блины простоВкусные блины просто" +
