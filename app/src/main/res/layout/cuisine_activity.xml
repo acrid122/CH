@@ -25,40 +25,213 @@
         android:layout_height="wrap_content"
         android:orientation="horizontal"
         android:weightSum="3"
-        android:layout_marginTop="35dp"
+        android:layout_marginTop="30dp"
         android:layout_marginHorizontal="20dp">
 
         <ToggleButton
-            android:layout_width="40dp"
-            android:layout_height="105dp"
-            android:background="@drawable/georgian_icon_pressed"
+            android:layout_width="32dp"
+            android:layout_height="100dp"
+            android:background="@drawable/georgian_button_background"
             android:textOff="Georgian"
             android:textOn="Georgian"
             android:textColor="@color/white"
             android:layout_weight="1"
-            android:fontFamily="@font/archivo_black"/>
+            android:fontFamily="@font/archivo_black"
+            android:textSize="13sp"/>
         <ToggleButton
-            android:layout_width="40dp"
-            android:layout_height="105dp"
-            android:background="@drawable/indian_icon_pressed"
-            android:textOff=""
-            android:textOn=""
+            android:layout_width="32dp"
+            android:layout_height="100dp"
+            android:background="@drawable/indian_button_background"
+            android:textOff="Indian"
+            android:textOn="Indian"
+            android:textColor="@color/white"
             android:layout_weight="1"
-            android:layout_marginHorizontal="20dp"
-            android:fontFamily="@font/archivo_black"/>
+            android:layout_marginHorizontal="25dp"
+            android:fontFamily="@font/archivo_black"
+            android:textSize="13sp"/>
 
         <ToggleButton
-            android:layout_width="40dp"
-            android:layout_height="105dp"
-            android:background="@drawable/japanese_icon_pressed"
+            android:layout_width="32dp"
+            android:layout_height="100dp"
+            android:background="@drawable/japanese_button_background"
             android:textOff="Japanese"
-            android:textOn=""
+            android:textOn="Japanese"
             android:layout_weight="1"
             android:textColor="@color/white"
-            android:fontFamily="@font/adamina"/>
+            android:fontFamily="@font/archivo_black"
+            android:textSize="13sp"/>
 
     </LinearLayout>
 
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:weightSum="3"
+        android:layout_marginTop="30dp"
+        android:layout_marginHorizontal="20dp">
+
+        <ToggleButton
+            android:layout_width="32dp"
+            android:layout_height="100dp"
+            android:background="@drawable/armenian_button_background"
+            android:textOff="Armenian"
+            android:textOn="Armenian"
+            android:textColor="@color/white"
+            android:layout_weight="1"
+            android:fontFamily="@font/archivo_black"
+            android:textSize="13sp"/>
+        <ToggleButton
+            android:layout_width="32dp"
+            android:layout_height="100dp"
+            android:background="@drawable/american_button_background"
+            android:textOff="American"
+            android:textOn="American"
+            android:textColor="@color/white"
+            android:layout_weight="1"
+            android:layout_marginHorizontal="25dp"
+            android:fontFamily="@font/archivo_black"
+            android:textSize="13sp"/>
+
+        <ToggleButton
+            android:layout_width="32dp"
+            android:layout_height="100dp"
+            android:background="@drawable/australian_button_background"
+            android:textOff="Australian"
+            android:textOn="Australian"
+            android:layout_weight="1"
+            android:textColor="@color/white"
+            android:fontFamily="@font/archivo_black"
+            android:textSize="13sp"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:weightSum="3"
+        android:layout_marginTop="30dp"
+        android:layout_marginHorizontal="20dp">
+
+        <ToggleButton
+            android:layout_width="32dp"
+            android:layout_height="100dp"
+            android:background="@drawable/arabic_button_background"
+            android:textOff="Arabic"
+            android:textOn="Arabic"
+            android:textColor="@color/white"
+            android:layout_weight="1"
+            android:fontFamily="@font/archivo_black"
+            android:textSize="13sp"/>
+        <ToggleButton
+            android:layout_width="32dp"
+            android:layout_height="100dp"
+            android:background="@drawable/brazilian_buttton_background"
+            android:textOff="Brazilian"
+            android:textOn="Brazilian"
+            android:textColor="@color/white"
+            android:layout_weight="1"
+            android:layout_marginHorizontal="25dp"
+            android:fontFamily="@font/archivo_black"
+            android:textSize="13sp"/>
+
+        <ToggleButton
+            android:layout_width="32dp"
+            android:layout_height="100dp"
+            android:background="@drawable/chinese_button_background"
+            android:textOff="Chinese"
+            android:textOn="Chinese"
+            android:layout_weight="1"
+            android:textColor="@color/white"
+            android:fontFamily="@font/archivo_black"
+            android:textSize="13sp"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:weightSum="3"
+        android:layout_marginTop="30dp"
+        android:layout_marginHorizontal="20dp">
+
+        <ToggleButton
+            android:layout_width="32dp"
+            android:layout_height="100dp"
+            android:background="@drawable/mexican_button_background"
+            android:textOff="Mexican"
+            android:textOn="mexican"
+            android:textColor="@color/white"
+            android:layout_weight="1"
+            android:fontFamily="@font/archivo_black"
+            android:textSize="13sp"/>
+        <ToggleButton
+            android:layout_width="32dp"
+            android:layout_height="100dp"
+            android:background="@drawable/african_button_background"
+            android:textOff="African"
+            android:textOn="African"
+            android:textColor="@color/white"
+            android:layout_weight="1"
+            android:layout_marginHorizontal="25dp"
+            android:fontFamily="@font/archivo_black"
+            android:textSize="13sp"/>
+        <ToggleButton
+            android:layout_width="32dp"
+            android:layout_height="100dp"
+            android:background="@drawable/european_button_background"
+            android:textOff="European"
+            android:textOn="European"
+            android:layout_weight="1"
+            android:textColor="@color/white"
+            android:fontFamily="@font/archivo_black"
+            android:textSize="13sp"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:weightSum="3"
+        android:layout_marginTop="30dp"
+        android:layout_marginHorizontal="20dp">
+
+        <ToggleButton
+            android:layout_width="32dp"
+            android:layout_height="100dp"
+            android:background="@drawable/scandinavian_button_background"
+            android:textOff="Nordic"
+            android:textOn="Nordic"
+            android:textColor="@color/white"
+            android:layout_weight="1"
+            android:fontFamily="@font/archivo_black"
+            android:textSize="13sp"/>
+        <ToggleButton
+            android:layout_width="32dp"
+            android:layout_height="100dp"
+            android:background="@drawable/vietnamise_button_background"
+            android:textOff="Vietnamise"
+            android:textOn="Vietnamise"
+            android:textColor="@color/white"
+            android:layout_weight="1"
+            android:layout_marginHorizontal="25dp"
+            android:fontFamily="@font/archivo_black"
+            android:textSize="13sp"/>
+
+        <ToggleButton
+            android:layout_width="32dp"
+            android:layout_height="100dp"
+            android:background="@drawable/russian_button_background"
+            android:textOff="Russian"
+            android:textOn="Russian"
+            android:layout_weight="1"
+            android:textColor="@color/white"
+            android:fontFamily="@font/archivo_black"
+            android:textSize="13sp"/>
+
+    </LinearLayout>
 
 
 

@@ -4,10 +4,23 @@
     <option name="filePathToZoomLevelMap">
       <map>
         <entry key="..\:/AndroidProjects/CH/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.2595" />
+        <entry key="..\:/AndroidProjects/CH/app/src/main/res/drawable/african_button_background.xml" value="0.159" />
+        <entry key="..\:/AndroidProjects/CH/app/src/main/res/drawable/american_button_background.xml" value="0.159" />
+        <entry key="..\:/AndroidProjects/CH/app/src/main/res/drawable/arabic_button_background.xml" value="0.159" />
+        <entry key="..\:/AndroidProjects/CH/app/src/main/res/drawable/armenian_button_background.xml" value="0.159" />
         <entry key="..\:/AndroidProjects/CH/app/src/main/res/drawable/bitter_button_background.xml" value="0.16" />
+        <entry key="..\:/AndroidProjects/CH/app/src/main/res/drawable/brazilian_buttton_background.xml" value="0.159" />
+        <entry key="..\:/AndroidProjects/CH/app/src/main/res/drawable/chinese_button_background.xml" value="0.159" />
+        <entry key="..\:/AndroidProjects/CH/app/src/main/res/drawable/european_button_background.xml" value="0.159" />
+        <entry key="..\:/AndroidProjects/CH/app/src/main/res/drawable/georgian_button_background.xml" value="0.16" />
         <entry key="..\:/AndroidProjects/CH/app/src/main/res/drawable/ic_launcher_background.xml" value="0.2595" />
+        <entry key="..\:/AndroidProjects/CH/app/src/main/res/drawable/indian_button_background.xml" value="0.159" />
+        <entry key="..\:/AndroidProjects/CH/app/src/main/res/drawable/japanese_button_background.xml" value="0.159" />
+        <entry key="..\:/AndroidProjects/CH/app/src/main/res/drawable/mexican_button_background.xml" value="0.159" />
         <entry key="..\:/AndroidProjects/CH/app/src/main/res/drawable/round.xml" value="0.124" />
+        <entry key="..\:/AndroidProjects/CH/app/src/main/res/drawable/russian_button_background.xml" value="0.159" />
         <entry key="..\:/AndroidProjects/CH/app/src/main/res/drawable/salty_button_background.xml" value="0.16" />
+        <entry key="..\:/AndroidProjects/CH/app/src/main/res/drawable/scandinavian_button_background.xml" value="0.159" />
         <entry key="..\:/AndroidProjects/CH/app/src/main/res/drawable/spice_button_background.xml" value="0.16" />
         <entry key="..\:/AndroidProjects/CH/app/src/main/res/drawable/spicy_button_background.xml" value="0.16" />
         <entry key="..\:/AndroidProjects/CH/app/src/main/res/drawable/sweety_button_background.xml" value="0.16" />
